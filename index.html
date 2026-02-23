@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Burke | Portfolio</title>
     <meta name="description" content="Personal portfolio and projects of John Burke.">
-    
+
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav id="navbar" class="navbar">
         <div class="nav-content">
             <a href="#" class="logo">JB.</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
+                <li><a href="#baseball">Baseball</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -37,12 +40,14 @@
             <div class="hero-content fade-in-up">
                 <span class="greeting">Hi, my name is</span>
                 <h1 class="name">John Burke.</h1>
-                <h2 class="subtitle">I build things for the web.</h2>
+                <h2 class="subtitle">Student, Athlete & Leader.</h2>
                 <p class="hero-description">
-                    I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.
+                    I'm a high school student striving to play baseball at the college level. When I'm not on the field
+                    or lifting in the gym, you can find me fishing or serving my community as the Vice President of Best
+                    Buddies.
                 </p>
                 <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">Check out my work!</a>
+                    <a href="#about" class="btn btn-primary">Learn More About Me</a>
                 </div>
             </div>
             <div class="hero-scroll-indicator">
@@ -57,90 +62,118 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        Hello! My name is John and I enjoy creating things that live on the internet. My interest in web development started back when I decided to try editing custom Tumblr themes.
+                        Hello! My name is John. I am currently a High School Junior (Class of 2027) balancing my passion
+                        for competitive baseball with a deep interest in academics and community leadership.
                     </p>
                     <p>
-                        Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.
+                        In the classroom, I am particularly drawn to math and the sciences. My goal is to play baseball
+                        at the collegiate level while pursuing a degree in Biomechanics, combining my love for sports
+                        with an understanding of human movement and performance.
                     </p>
-                    <p>Here are a few technologies I've been working with recently:</p>
-                    <ul class="skills-list">
-                        <li>JavaScript (ES6+)</li>
-                        <li>TypeScript</li>
-                        <li>React</li>
-                        <li>Node.js</li>
-                        <li>HTML & CSS</li>
-                        <li>SQL & NoSQL</li>
-                    </ul>
+
                 </div>
                 <!-- Generate a lovely abstract placeholder image -->
                 <div class="about-image-wrapper">
                     <div class="about-image-container">
-                        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Programming Setup" class="about-img">
+                        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Programming Setup" class="about-img">
                         <div class="image-overlay"></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects section">
-            <h2 class="section-heading">Some Things I've Built</h2>
+        <!-- Baseball Section -->
+        <section id="baseball" class="baseball section">
+            <h2 class="section-heading">Baseball Profile</h2>
             <div class="project-grid">
-                
-                <!-- Project 1 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <h3 class="project-title">Stats & Highlights</h3>
                         <p class="project-description">
-                            A fully responsive e-commerce platform built with modern web technologies, featuring user authentication, product search, and Stripe payment integration.
+                            Check out my game footage, batting averages, and pitching stats. I am actively looking for
+                            college opportunities!
                         </p>
-                        <ul class="project-tech-list">
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Stripe</li>
-                        </ul>
                         <div class="project-links">
-                            <a href="#" aria-label="GitHub Link"><i data-lucide="github"></i></a>
-                            <a href="#" aria-label="External Link"><i data-lucide="external-link"></i></a>
+                            <a href="https://twitter.com/JohnBurke2027" target="_blank" aria-label="Twitter"><i
+                                    data-lucide="twitter"></i></a>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <!-- Project 2 -->
+        <!-- Extracurriculars Section -->
+        <section id="projects" class="projects section">
+            <h2 class="section-heading">Extracurriculars & Hobbies</h2>
+            <div class="project-grid">
+
+                <!-- Activity 1 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <h3 class="project-title">Task Management App</h3>
+                        <h3 class="project-title">Best Buddies Vice President</h3>
                         <p class="project-description">
-                            A productivity application designed for teams to organize and prioritize work. Includes drag-and-drop kanban boards and real-time updates.
+                            As Vice President of Best Buddies, I help foster inclusion and build friendships between
+                            students with and without intellectual and developmental disabilities. I organize events,
+                            manage meetings, and work to create a more welcoming school environment.
                         </p>
                         <ul class="project-tech-list">
-                            <li>Vue.js</li>
-                            <li>Firebase</li>
-                            <li>Tailwind</li>
+                            <li>Leadership</li>
+                            <li>Community Inclusion</li>
+                            <li>Mentorship</li>
                         </ul>
-                        <div class="project-links">
-                            <a href="#" aria-label="GitHub Link"><i data-lucide="github"></i></a>
-                            <a href="#" aria-label="External Link"><i data-lucide="external-link"></i></a>
-                        </div>
                     </div>
                 </div>
 
-                <!-- Project 3 -->
+                <!-- Activity 2 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <h3 class="project-title">Weather Dashboard</h3>
+                        <h3 class="project-title">Amateur Angler</h3>
                         <p class="project-description">
-                            A real-time weather application pulling data from the OpenWeather API, featuring geolocation, interactive maps, and 7-day forecasting.
+                            I'm an avid fisherman who spends weekends on the water. Fishing teaches me patience,
+                            problem-solving, and respect for the outdoors. It's a great way to recharge and stay focused
+                            during the demanding baseball season.
                         </p>
                         <ul class="project-tech-list">
-                            <li>JavaScript</li>
-                            <li>OpenWeather API</li>
-                            <li>Chart.js</li>
+                            <li>Patience</li>
+                            <li>Problem Solving</li>
+                            <li>Focus</li>
                         </ul>
-                        <div class="project-links">
-                            <a href="#" aria-label="GitHub Link"><i data-lucide="github"></i></a>
-                            <a href="#" aria-label="External Link"><i data-lucide="external-link"></i></a>
-                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity 3 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Strength & Conditioning</h3>
+                        <p class="project-description">
+                            Dedicated to improving my performance on the field through weightlifting and consistent
+                            fitness routines. I manage my own workout plans, focusing on explosiveness and injury
+                            prevention for baseball.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Discipline</li>
+                            <li>Athleticism</li>
+                            <li>Goal Setting</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Activity 4 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Team Member at Sabatino's Pizza</h3>
+                        <p class="project-description">
+                            I currently work part-time at Sabatino's Pizza where I manage customer orders, support
+                            fast-paced service, and work collaboratively with the team. Balancing this job with a
+                            rigorous academic schedule and daily baseball training has strengthened my time management
+                            skills.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Time Management</li>
+                            <li>Customer Service</li>
+                            <li>Teamwork</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -151,24 +184,26 @@
         <section id="contact" class="contact section">
             <h2 class="section-heading centered">Get In Touch</h2>
             <p class="contact-text">
-                Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have
+                a question or just want to say hi, I'll try my best to get back to you!
             </p>
-            <a href="mailto:hello@example.com" class="btn btn-primary" style="margin-top: 2rem;">Say Hello</a>
+            <a href="mailto:john.burke082027@gmail.com" class="btn btn-primary" style="margin-top: 2rem;">Say Hello</a>
         </section>
     </main>
 
     <footer>
         <div class="social-links">
-            <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+            <a href="https://github.com/johnburke082027-alt" target="_blank" aria-label="GitHub"><i
+                    data-lucide="github"></i></a>
             <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
-            <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
         </div>
         <p class="footer-text">Built with 💻 and ☕ by John Burke</p>
     </footer>
 
     <script src="script.js"></script>
     <script>
-      lucide.createIcons();
+        lucide.createIcons();
     </script>
 </body>
+
 </html>
